@@ -1,0 +1,11 @@
+@mixin headingFont($fontSize) {
+  font-size: $fontSize;
+  font-family: "Oswald", monospace;
+}
+
+h1 {
+  @include headingFont(8rem);
+  text-transform: uppercase;
+  color: white;
+  margin: 1rem 0;
+}
